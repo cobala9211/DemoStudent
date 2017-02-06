@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.asiantech.demstudent.views.PagerSlidingTabStrip
+        android:id="@+id/tabStripMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        app:pstsIndicatorHeight="0dp"
+        app:pstsShouldExpand="true"
+        app:pstsTabPaddingLeftRight="5dp" />
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/tabStripMain"
+        android:background="@android:color/darker_gray" />
+
+    <com.example.asiantech.demstudent.views.NonSwipeViewPager
+        android:id="@+id/viewPagerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/viewLine"
+        android:scrollbars="none" />
+</RelativeLayout>

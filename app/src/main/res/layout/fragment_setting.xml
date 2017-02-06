@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_layout"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolBarSearchPape"
+        layout="@layout/custom_action_bar_search" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_background_layout"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="教科書設定" />
+
+    <include
+        android:id="@+id/viewSettingSchool"
+        layout="@layout/custom_other_row" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_background_layout"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="公式問題集の購入" />
+
+    <include
+        android:id="@+id/viewSettingProblems"
+        layout="@layout/custom_other_row" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_background_layout"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="その他" />
+
+    <include
+        android:id="@+id/viewSettingTerm"
+        layout="@layout/custom_other_row" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_background_layout" />
+
+    <include
+        android:id="@+id/viewLogout"
+        layout="@layout/custom_other_row" />
+
+</LinearLayout>

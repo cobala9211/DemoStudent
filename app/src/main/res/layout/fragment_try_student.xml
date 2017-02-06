@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/searchTryStudent"
+        layout="@layout/custom_action_bar_search" />
+
+    <Button
+        android:id="@+id/btnShowButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="メニューボトム" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnShowButton"
+        android:layout_below="@+id/searchTryStudent" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolBarSearchPape"
+        layout="@layout/custom_action_bar_search" />
+
+    <com.example.asiantech.demstudent.views.ToolBarHorizontalScroll
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/toolBarSearchPape" />
+
+    <include
+        android:id="@+id/customDetailView"
+        layout="@layout/custom_detail_view" />
+
+    <ExpandableListView
+        android:id="@+id/expandableMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:groupIndicator="@null"
+        android:smoothScrollbar="true" />
+
+</LinearLayout>

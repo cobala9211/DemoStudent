@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlProgress"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentRight="true"
+        android:padding="20dp">
+
+        <com.example.asiantech.demstudent.views.CustomProgressBar
+            android:id="@+id/customProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            app:cpb_background_progressbar_color="@color/item_list_expandable_orange"
+            app:cpb_background_progressbar_width="25dp"
+            app:cpb_progress="50"
+            app:cpb_progressbar_color="@color/colorProgress"
+            app:cpb_progressbar_width="25dp"
+            app:cpb_text_color="@color/colorProgress"
+            app:cpb_text_size_pro="20"
+            app:cpb_text_size_total="55"
+            app:cpb_text_string_pro="/ 999"
+            app:cpb_text_string_total="999" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/rlProgress"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="中学版を受講しています。"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tvTitleSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="公式問題集"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tvCountRise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_cub1"
+            android:padding="5dp"
+            android:text="120/10"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvDetailSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="購入手続き" />
+    </LinearLayout>
+
+</RelativeLayout>

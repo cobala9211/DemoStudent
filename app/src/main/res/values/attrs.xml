@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--attrs tab trip-->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <!--attrs progressbar-->
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_progress" format="integer" />
+        <attr name="cpb_progressbar_color" format="color" />
+        <attr name="cpb_text_color" format="color" />
+        <attr name="cpb_background_progressbar_color" format="color" />
+        <attr name="cpb_progressbar_width" format="dimension" />
+        <attr name="cpb_background_progressbar_width" format="dimension" />
+        <attr name="cpb_text_size_total" format="integer" />
+        <attr name="cpb_text_size_pro" format="integer" />
+        <attr name="cpb_text_string_total" format="string" />
+        <attr name="cpb_text_string_pro" format="string" />
+    </declare-styleable>
+
+    <!--custom layout-->
+    <declare-styleable name="customLayout">
+        <attr name="cl_progress" format="integer" />
+        <attr name="cl_progressbar_color" format="color" />
+        <attr name="cl_background_color" format="color" />
+        <attr name="cl_text_color" format="color" />
+        <attr name="cl_progressbar_width" format="dimension" />
+        <attr name="cl_background_progressbar_width" format="dimension" />
+        <attr name="cl_text_size_total" format="integer" />
+        <attr name="cl_text_size_pro" format="integer" />
+        <attr name="cl_text_string_total" format="string" />
+        <attr name="cl_text_string_pro" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="customProgressHorizontal">
+        <attr name="cpdh_progress_width" format="integer" />
+        <attr name="cpdh_progress_height" format="integer" />
+        <attr name="cpdh_progress_max" format="integer" />
+        <attr name="cpdh_progress_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+    <!--custom circle progress bar-->
+    <declare-styleable name="CircularProgressBarNew">
+        <attr name="cpbn_hasShadow" format="boolean"/>
+        <attr name="cpbn_progressColor" format="string"/>
+        <attr name="cpbn_backgroundColor" format="string"/>
+        <attr name="cpbn_title" format="string"/>
+        <attr name="cpbn_titleColor" format="string"/>
+        <attr name="cpbn_subtitle" format="string"/>
+        <attr name="cpbn_subtitleColor" format="string"/>
+        <attr name="cpbn_strokeWidth" format="integer"/>
+    </declare-styleable>
+
+</resources>
